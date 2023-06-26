@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CreoHub - Task1</title>
+    <style>
+        * {
+            font-family: Calibri;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            padding: 0;
+        }
+        header {
+            background-color: steelblue;
+            margin-top: -8px;
+            margin-left: -8px;
+            margin-right: -8px;
+            padding-bottom: 1px;
+            padding-left: ;
+            color: white;
+        }
+        header li {
+            list-style-type: none;
+            display: inline;
+            color: white;
+        }
+        header a {
+            color: white;
+            font-size: 20px;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+        header nav {
+            margin-right: 40px;
+            margin-top: -60px;
+            float: right;
+        }
+        header a:hover {
+            color: rgb(168, 204, 234);
+        }
+        .header1 {
+            margin-left: 20px;
+            margin-top: -30px;
+        }
+        .banner {
+            background-color: rgb(229, 196, 95);
+            color: rgb(54, 54, 54);
+            margin: -8px;
+        }
+        .text-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            margin: 50px;
+            
+        }
+        .text {
+            width: 50%;
+        }
+        .picture {
+            width: 50%;
+            margin-left: 400px;
+        }
+        footer{
+            background-color: steelblue;
+            margin-top: -8px;
+            margin-left: -8px;
+            margin-right: -8px;
+            color: white;
+            position: sticky;
+            top: 100%;
+            clear: both;
+        }
+        footer a{
+            color: white;
+            text-decoration: none;
+        }
+        footer a:hover{
+            color: rgb(168, 204, 234);;
+        }
+        .form{
+            width: 30%;
+            margin: 50px;
+            background-color: rgb(210, 228, 243);
+            border-radius: 30px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header1">
+            <h1 style="font-size: 50px;">Imad's Site</h1>
+            <h2 style="font-size: 21px; margin-top: -35px; font-weight: lighter;">CreoHub task</h2>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="banner" align="center">
+        <h1>This is a Banner</h1>
+    </div>
+    <div class="text-container">
+        <div class="text">
+            <h2>First Text</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam quaerat necessitatibus unde, harum, eligendi ipsum amet expedita quas atque aliquid laborum molestiae suscipit temporibus hic modi fugiat, iste cumque explicabo?</p>
+
+            <h2>Second Text</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam quaerat necessitatibus unde, harum, eligendi ipsum amet expedita quas atque aliquid laborum molestiae suscipit temporibus hic modi fugiat, iste cumque explicabo?</p>
+        </div>
+        <div class="picture">
+            <img src="laptopdesign.png" width="350px">
+        </div>
+    </div>
+    <div>
+        <div class="form">
+            <h2>A Simple Form</h2>
+            Email: <input type="text" placeholder="Your email"><br><br>
+            Message:<br><textarea name="" id="" cols="70" rows="7" placeholder="Write your message here."></textarea>
+            <br><br>
+            <button>Send Email</button>
+        </div>
+    </div>
+    <footer align="center">
+        <p>&copy; 2023 Imad's Site</p>
+        <p><a href="#">Home</a> | <a href="#">Features</a> | <a href="#">About</a></p>
+    </footer>
+</body>
+</html>
